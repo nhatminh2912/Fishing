@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF192FF61DEFD8AE0065249D /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = CF192FF31DEFD8AE0065249D /* ocean.png */; };
+		CF192FF81DEFD8AE0065249D /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF192FF51DEFD8AE0065249D /* fish1.png */; };
+		CF787B6A1DED2168002AF86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF787B691DED2168002AF86E /* AppDelegate.swift */; };
+		CF787B6C1DED2168002AF86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF787B6B1DED2168002AF86E /* ViewController.swift */; };
+		CF787B6F1DED2168002AF86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF787B6D1DED2168002AF86E /* Main.storyboard */; };
+		CF787B711DED2168002AF86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF787B701DED2168002AF86E /* Assets.xcassets */; };
+		CF787B741DED2168002AF86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF787B721DED2168002AF86E /* LaunchScreen.storyboard */; };
+		CF787B7C1DED219A002AF86E /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF787B7B1DED219A002AF86E /* FishView.swift */; };
+		CF787B7E1DED21BC002AF86E /* HookerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF787B7D1DED21BC002AF86E /* HookerView.swift */; };
+		CF787B801DED21CF002AF86E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF787B7F1DED21CF002AF86E /* GameManager.swift */; };
+		CF81B2681DF125040046A837 /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = CF81B2671DF125040046A837 /* hook.png */; };
+		CF9ACC2F1DF01E4A0017EDB6 /* fish2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9ACC2E1DF01E4A0017EDB6 /* fish2.png */; };
+		CF9ACC311DF0240A0017EDB6 /* fish3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9ACC301DF0240A0017EDB6 /* fish3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF192FF31DEFD8AE0065249D /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
+		CF192FF51DEFD8AE0065249D /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
+		CF787B661DED2168002AF86E /* Fishing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fishing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF787B691DED2168002AF86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF787B6B1DED2168002AF86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF787B6E1DED2168002AF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF787B701DED2168002AF86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF787B731DED2168002AF86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF787B751DED2168002AF86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF787B7B1DED219A002AF86E /* FishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		CF787B7D1DED21BC002AF86E /* HookerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookerView.swift; sourceTree = "<group>"; };
+		CF787B7F1DED21CF002AF86E /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		CF81B2671DF125040046A837 /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
+		CF9ACC2E1DF01E4A0017EDB6 /* fish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish2.png; sourceTree = "<group>"; };
+		CF9ACC301DF0240A0017EDB6 /* fish3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF787B631DED2168002AF86E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF192FF21DEFD8940065249D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CF192FF31DEFD8AE0065249D /* ocean.png */,
+				CF81B2671DF125040046A837 /* hook.png */,
+				CF192FF51DEFD8AE0065249D /* fish1.png */,
+				CF9ACC2E1DF01E4A0017EDB6 /* fish2.png */,
+				CF9ACC301DF0240A0017EDB6 /* fish3.png */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		CF787B5D1DED2167002AF86E = {
+			isa = PBXGroup;
+			children = (
+				CF787B681DED2168002AF86E /* Fishing */,
+				CF787B671DED2168002AF86E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF787B671DED2168002AF86E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF787B661DED2168002AF86E /* Fishing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF787B681DED2168002AF86E /* Fishing */ = {
+			isa = PBXGroup;
+			children = (
+				CF192FF21DEFD8940065249D /* Source */,
+				CF787B691DED2168002AF86E /* AppDelegate.swift */,
+				CF787B6B1DED2168002AF86E /* ViewController.swift */,
+				CF787B7B1DED219A002AF86E /* FishView.swift */,
+				CF787B7D1DED21BC002AF86E /* HookerView.swift */,
+				CF787B7F1DED21CF002AF86E /* GameManager.swift */,
+				CF787B6D1DED2168002AF86E /* Main.storyboard */,
+				CF787B701DED2168002AF86E /* Assets.xcassets */,
+				CF787B721DED2168002AF86E /* LaunchScreen.storyboard */,
+				CF787B751DED2168002AF86E /* Info.plist */,
+			);
+			path = Fishing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF787B651DED2168002AF86E /* Fishing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF787B781DED2168002AF86E /* Build configuration list for PBXNativeTarget "Fishing" */;
+			buildPhases = (
+				CF787B621DED2168002AF86E /* Sources */,
+				CF787B631DED2168002AF86E /* Frameworks */,
+				CF787B641DED2168002AF86E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fishing;
+			productName = Fishing;
+			productReference = CF787B661DED2168002AF86E /* Fishing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF787B5E1DED2167002AF86E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nhật Minh";
+				TargetAttributes = {
+					CF787B651DED2168002AF86E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF787B611DED2167002AF86E /* Build configuration list for PBXProject "Fishing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF787B5D1DED2167002AF86E;
+			productRefGroup = CF787B671DED2168002AF86E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF787B651DED2168002AF86E /* Fishing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF787B641DED2168002AF86E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF787B741DED2168002AF86E /* LaunchScreen.storyboard in Resources */,
+				CF9ACC311DF0240A0017EDB6 /* fish3.png in Resources */,
+				CF787B711DED2168002AF86E /* Assets.xcassets in Resources */,
+				CF192FF81DEFD8AE0065249D /* fish1.png in Resources */,
+				CF81B2681DF125040046A837 /* hook.png in Resources */,
+				CF192FF61DEFD8AE0065249D /* ocean.png in Resources */,
+				CF9ACC2F1DF01E4A0017EDB6 /* fish2.png in Resources */,
+				CF787B6F1DED2168002AF86E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF787B621DED2168002AF86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF787B6C1DED2168002AF86E /* ViewController.swift in Sources */,
+				CF787B6A1DED2168002AF86E /* AppDelegate.swift in Sources */,
+				CF787B7E1DED21BC002AF86E /* HookerView.swift in Sources */,
+				CF787B7C1DED219A002AF86E /* FishView.swift in Sources */,
+				CF787B801DED21CF002AF86E /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF787B6D1DED2168002AF86E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF787B6E1DED2168002AF86E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF787B721DED2168002AF86E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF787B731DED2168002AF86E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF787B761DED2168002AF86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF787B771DED2168002AF86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF787B791DED2168002AF86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fishing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.Fishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF787B7A1DED2168002AF86E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fishing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.Fishing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF787B611DED2167002AF86E /* Build configuration list for PBXProject "Fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF787B761DED2168002AF86E /* Debug */,
+				CF787B771DED2168002AF86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF787B781DED2168002AF86E /* Build configuration list for PBXNativeTarget "Fishing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF787B791DED2168002AF86E /* Debug */,
+				CF787B7A1DED2168002AF86E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF787B5E1DED2167002AF86E /* Project object */;
+}
